@@ -17,14 +17,16 @@ var chot = 0, nechot = 0;
 
 var numbers = function(chisla) {
 var fi = [];
-    for (let i = 0; i < chisla; i++) {
+    for (var i = 0; i < chisla; i++) {
         if(i == 0) {
-            fi[i] == 1;
+            fi[i] = 1;
         } else if (i == 1) {
-            fi[i] == 2;
+            fi[i] = 2;
         } else {
             fi[i] = fi[i - 2] + fi[i - 1];
         }
     }
     return fi;
 }
+var b = numbers(11);
+console.log(b);
