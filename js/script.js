@@ -1,3 +1,5 @@
+//Функция, которая высчитывает количество четных и нечетныых цыфр.
+
 var number = function(num) {
 var chot = 0, nechot = 0;
     for (var i = 0; i < num.length; i++) {
@@ -10,5 +12,5 @@ var chot = 0, nechot = 0;
     return[chot, nechot];
 }
 
-var a = number("3148216");
-console.log(a);
+//var a = number("3148216");
+//console.log(a);
