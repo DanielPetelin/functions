@@ -9,3 +9,6 @@ var chot = 0, nechot = 0;
     }
     return[chot, nechot];
 }
+
+var a = number("3148216");
+console.log(a);
