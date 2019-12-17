@@ -15,6 +15,8 @@ var chot = 0, nechot = 0;
 //var a = number("3148216");
 //console.log(a);
 
+//Функция, которая выводит числа фибоначи.
+
 var numbers = function(chisla) {
 var fi = [];
     for (var i = 0; i < chisla; i++) {
@@ -28,5 +30,6 @@ var fi = [];
     }
     return fi;
 }
-var b = numbers(11);
-console.log(b);
+
+//var b = numbers(10);
+//console.log(b);
